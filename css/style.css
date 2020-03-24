@@ -1,0 +1,204 @@
+
+				/*FORMATAÇÃO DA PAGINA*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Open Sans', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+/**Divs gerais!*/
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+/***Divs gerais***/
+								  /*HEADER*/
+header{
+	background-color:#96c93e;
+	padding:10px 2% 40px 2%;
+}
+								/*HEADER*/
+
+								/*BACKGROUND*/
+.bg{
+    position: relative;
+    width: 1280px ;
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	background-image:url('../image/net.jpg');
+	
+}
+
+						/*LOGO 1 HEADER*/
+.ube1{
+    margin-top: 10px;
+	float: left;
+	width: 150px;
+	height: 45px;
+	background-image: url('../image/ube1.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+    background-position: left;
+}
+
+						/*LOGO 1 HEADER*/
+
+
+
+
+    
+    
+
+.form-container{
+	position: absolute;
+	left: 28%;
+	margin-top: -3%;
+	width: 600px;
+	height: 145%;
+	box-shadow: 1px 1px 2px 1px rgb(180,180,180);
+	background-color: white;
+}
+
+.form-container h2{
+    text-align: center;
+	font-weight: normal;
+	padding:30px 30px;
+	color: black;
+	font-size: 18px;
+	background-color:#b9f059;
+    ;
+}
+
+.form-container form{
+	margin-top:-10px;
+	padding:15px;
+}
+
+.form-container form p{
+	font-size: 14px;
+	color: #525252;
+}
+
+.form-wraper:not(:first-child){
+	margin-top:40px;
+}
+
+.form-wraper:last-child{
+	margin-top:20px;
+}
+
+.form-container form input[type=text]{
+	width: 100%;
+	border:1px solid #ccc;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 10px;
+}
+
+.form-container form input[type=submit]{
+    margin-top: -40px;
+    background-color: #033C50;
+	text-transform: uppercase;
+	color: white;
+	width: 30%;
+	font-size: 25px;
+	height: 50px;
+	cursor: pointer;
+	border:0;
+}
+
+
+
+section.chamada{
+    z-index: 1;
+	width: 100%;
+	text-align: center;
+	
+}
+
+section.chamada div.container{
+	background-color: #96c93e;
+    padding:85px 0 30px 0;
+    
+    background-repeat: no-repeat;
+    
+	
+	
+}
+						/* LOGO 2 200 ANOS*/	
+.logo2{
+	float: left;
+	margin-top: -5%;
+	margin-left: 20px;
+	width: 210px;
+	height:200px;
+	background-image: url('../image/200.png');
+	background-repeat: no-repeat;
+}
+
+							/*AJUSTE TÉCNICO*/
+section.chamada h2{
+	width: 100%;
+	max-width: 700px;
+	display: inline-block;
+	color: white;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+				/*           AJUSTE TÉCNICO             */
+section.chamada p{
+	width: 98%;
+	max-width: 700px;
+	display: inline-block;
+	color: white;
+	margin-top:10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+
+
+			/*                  FOOTER               */
+footer{
+    margin-left:72px;
+    margin-right: 71px;
+    font-size: 10px;
+    color: white;
+    bottom: 0px;
+    text-align: center;
+    background-color:#878885;
+    
+   
+}
+
+@media screen and (max-width: 600px){
+
+	header{
+		text-align: center;
+		
+	}
+
+
+	
+
+	[class^="logo"]{
+		margin-top:10px;
+		display: inline-block;
+		float: none;
+	}
+
+}
