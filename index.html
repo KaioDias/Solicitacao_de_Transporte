@@ -39,12 +39,14 @@
 
                 <div class="form-wraper">
                     <p>*Telefone:</p>           <!-----TELEFONE-->
-                    <input type="text" name="telefone"
-                    required placeholder="Telefone">
+                    <input type="tel" name="telefone"
+                    required placeholder="Telefone" placeholder="123-45-678"
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        <small>Format: 123-45-678</small>
                 </div><!--form-wraper-->
 
                 <div class="form-wraper">
-                    <p>*Agendamento:</p>        <!-----TELEFONE-->
+                    <p>*Agendamento:</p>        <!-----Agendamento-->
                     <input type="datetime-local" name="data" required placeholder="Agendamento">
 
 
